@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Live-search</title>
+  <script type="module" crossorigin src="/search/assets/index-6f5d61c2.js"></script>
+  <link rel="stylesheet" href="/search/assets/index-0953c3f8.css">
+</head>
+
+<body>
+
+  <div class="live-search-wrapper">
+
+    <div class="ls-container">
+
+      <div class="demo-box">
+        <div class="ls-overlay"></div>
+
+        <h1>Live-search:</h1>
+
+        <div class="live-search-form">
+          <input class="search" type="text" placeholder="Enter your query">
+          <div class="ls-icon">
+            <img src="/search/assets/search-877ef9d2.svg" alt="">
+          </div>
+          <div class="drop-container">
+            <ul class="list"></ul>
+            <p class="empty-msg">Not found</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="live-search-documentation">
+        <h3>Documentation:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Parametr</th>
+              <th>Type</th>
+              <th>Default</th>
+              <th>Discription</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>el</td>
+              <td>String</td>
+              <td>' '</td>
+              <td>CSS selector of the element</td>
+            </tr>
+            <tr>
+              <td>data</td>
+              <td>Array</td>
+              <td>[ ]</td>
+              <td>Information for display and filter</td>
+            </tr>
+            <tr>
+              <td>EmptyMsg</td>
+              <td>String</td>
+              <td>'Not Found'</td>
+              <td>Message text for empty result</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+  </div>
+
+  
+</body>
+
+</html>
